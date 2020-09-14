@@ -14,7 +14,7 @@ body {
   display: grid;
   grid-template-areas:
     "header"
-    "figure"
+    "figure";
 }
 
 img {
@@ -48,7 +48,7 @@ header {
 }
 
 nav {
-  grid-column:3 / -1;
+  grid-column: 3 / -1;
   grid-row: 1;
   padding-right: 3rem;
 }
@@ -60,7 +60,7 @@ nav ul {
   font-family: "Patua One", sans-serif;
 }
 
-li a{
+li a {
   color: #fff;
   font-size: 2em;
   margin: 1rem;
