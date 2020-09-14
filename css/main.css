@@ -13,6 +13,21 @@ img {
 }
 
 header {
-  /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
+  position: relative;
+}
+
+.pano {
+}
+
+.logo {
+  position: absolute;
+  top: 67%;
+  right: 77%;
+  width: 14rem;
+}
+
+body {
+  margin: 0;
+  display: grid;
 }
